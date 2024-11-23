@@ -27,7 +27,7 @@ public void keyPressed(){
     if(key == 'w'|| key == 'W'){
       bob.accelerate(.1);
     }
-    if(key == 'q'||key == 'Q'){
+    if(key == 's'||key == 'S'){
       bob.hyperspace(); 
     }
   }
