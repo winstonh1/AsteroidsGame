@@ -30,8 +30,10 @@ void draw(){
     roid.get(i).move();
     roid.get(i).turn(roid.get(i).getRotSpeed());
     float d = dist((float)bob.getX(), (float)bob.getY(), (float)roid.get(i).getX(), (float) roid.get(i).getY());
-    if (d < 15)
+    if (d < 15){
       roid.remove(i);
+      i--;
+    }
   }
   
   
