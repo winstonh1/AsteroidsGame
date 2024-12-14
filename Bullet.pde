@@ -8,7 +8,7 @@ class Bullet extends Floater{
     accelerate(.6);
   }
   public void show(){
-    ellipse((float)myCenterX, (float)myCenterY, 10,10);
+    ellipse((float)myCenterX, (float)myCenterY, 5,5);
   }  
   
   public void move ()   //move the floater in the current direction of travel
