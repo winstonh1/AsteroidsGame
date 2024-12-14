@@ -6,7 +6,7 @@ Asteroid [] rocks = new Asteroid [20];
 ArrayList <Bullet> shots = new ArrayList<Bullet>();
 
 void setup(){
-  size(500,500);
+  size(600,600);
 
   for(int i = 0; i < dots.length; i++){
     dots[i] = new Star();
